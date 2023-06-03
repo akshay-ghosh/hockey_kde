@@ -2,7 +2,12 @@
 Created on Sat Jun  3 15:18:11 2023
 
 @author: akshayghosh
+
+Version: 0.0.1
 """
+
+Clone to folder where you would like to do your analysis:
+git clone https://github.com/akshay-ghosh/hockey_kde.git .
 
 Example of how to do a KDE analysis of an NHL team's shot locations from the 2022-23 NHL season:
 
