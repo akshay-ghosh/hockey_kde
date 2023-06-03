@@ -18,6 +18,8 @@ $ curl https://peter-tanner.com/moneypuck/downloads/shots_2022.zip -o shots_2022
 
 Run the file ```modify_shot_data.py```, and properly set the input and output filenames.
 
+Edit line 70 of ```hockey_variability.py``` to where you saved the modified csv shot data.
+
 Example of how to do a KDE analysis of an NHL team's shot locations from the 2022-23 NHL season:
 
 First import the 'hockey_variability' module:
