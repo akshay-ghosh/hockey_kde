@@ -5,6 +5,8 @@ Created on Sat Jun  3 15:18:11 2023
 
 Version: 0.0.1
 """
+Example to preview the 2023 Cup finals:
+![panthers_vs_knights_regseason_kde](https://github.com/akshay-ghosh/hockey_kde/assets/42668323/3e202eb0-f79d-45a9-963c-d04311762708)
 
 Clone to folder where you would like to do your analysis:
 ```
@@ -42,6 +44,11 @@ hv.calc_shot_kde(specific_game = True,OFF_team = 'OTT',date_string = '2023-03-23
 This will return the KDE plot of every OTT vs TOR game for the 2022-23 regular season:
 ```
 hv.calc_shot_kde(specific_game = False,OFF_team = 'OTT',date_string = None, DEF_team = 'TOR',playoffs = False)
+```
+
+To create the Panthers vs Knights plot:
+```
+hv.calc_shot_kde(specific_game = False,OFF_team = 'FLA',date_string = None, DEF_team = 'VGK',playoffs = False)
 ```
 
 NOTE:
