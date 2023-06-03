@@ -22,9 +22,11 @@ Edit line 70 of ```hockey_variability.py``` to where you saved the modified csv 
 
 Example of how to do a KDE analysis of an NHL team's shot locations from the 2022-23 NHL season:
 
-First import the 'hockey_variability' module:
+First create your analysis file in the ```hockey_variability``` folder.
+
+Then import the 'hockey_variability' module:
 ```
-from hockey_kde import hockey_variability as hv
+import hockey_variability as hv
 ```
 
 This will return the KDE plot of all of Ottawa's shots for the season:
