@@ -16,7 +16,7 @@ git clone https://github.com/akshay-ghosh/hockey_kde.git .
 
 DOWNLOAD SHOT DATA (type this in the terminal):
 ```
-$ curl https://peter-tanner.com/moneypuck/downloads/shots_2022.zip -o shots_2022
+curl https://peter-tanner.com/moneypuck/downloads/shots_2022.zip -o shots_2022
 ```
 
 Run the file ```modify_shot_data.py```, and properly set the input and output filenames.
