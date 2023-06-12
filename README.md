@@ -9,6 +9,8 @@ Version: 0.0.1
 Example to preview the 2023 Cup finals:
 ![panthers_vs_knights_regseason_kde](https://github.com/akshay-ghosh/hockey_kde/assets/42668323/3e202eb0-f79d-45a9-963c-d04311762708)
 
+This tells us mostly what we expect, that a majority of shots were from the high danger areas of the ice in and around the slot. We can also see some clustering of shots by Florida, in this small sample size (2 games), they were shooting from the high slot, top right circle, and inside of the left circle. Maybe Vegas used similar evidence to come up with a gameplan for the 2023 Cup finals?
+
 Clone to folder where you would like to do your analysis:
 ```
 git clone https://github.com/akshay-ghosh/hockey_kde.git .
